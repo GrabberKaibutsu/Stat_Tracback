@@ -32,8 +32,9 @@ app.use(
   cors({
     credentials: true,
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
-    origin: ["https://main--stat-trac.netlify.app/signup",
-      "https://stat-trac.netlify.app/signup"
+    origin: [
+      "https://main--stat-trac.netlify.app",
+      "https://stat-trac.netlify.app"
     ],
   })
 );
