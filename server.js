@@ -31,7 +31,9 @@ const userRouter = require("./controllers/userController");
 app.use(
   cors({
     credentials: true,
-    origin: ["https://main--stat-trac.netlify.app/signup"],
+    origin: ["https://main--stat-trac.netlify.app/signup",
+      "https://stat-trac.netlify.app/signup"
+    ],
   })
 );
 app.options("*", cors());
