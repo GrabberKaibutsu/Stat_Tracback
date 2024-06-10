@@ -1,8 +1,5 @@
 require("dotenv").config();
 const express = require("express");
-const path = require("path");
-const livereload = require("livereload");
-const connectLiveReload = require("connect-livereload");
 const morgan = require("morgan");
 const cors = require("cors");
 const mongoose = require("mongoose");
